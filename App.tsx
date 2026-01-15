@@ -19,6 +19,8 @@ import ScriptAgentView from './components/ScriptAgentView';
 import PromotionView from './components/PromotionView';
 import CompetitorView from './components/CompetitorView';
 import BlueWaveBackground from './components/BlueWaveBackground';
+import { getYoutubeData } from "./services/youtubeService";
+
 
 const formatNumber = (num: number) => {
   return new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 1 }).format(num);
